@@ -1,24 +1,289 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook-S3-M21.5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Misión 21.5: Pruebas de Usabilidad (UX)</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Esta es una sesión de refuerzo práctico para realizar pruebas de usabilidad y dar feedback constructivo.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Secuencia y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Que los estudiantes refuercen su comprensión del diseño centrado en el usuario.</li>
+                                        <li>Que realicen pruebas de usabilidad (UX) de sus Gemelos Digitales.</li>
+                                        <li>Que proporcionen feedback estructurado para identificar áreas de mejora en la claridad, facilidad de uso y diseño de la interfaz.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡A.I. GYM:</strong> Repaso estratégico y contextualización de protocolos de pruebas de usabilidad.</li>
+                                        <li><strong class="tactic-highlight">⚡BRAIN SPARK (Pruebas Cruzadas):</strong> Ejecución de pruebas de UX y recopilación de feedback estructurado.</li>
+                                        <li><strong class="tactic-highlight">⚡CONSULTA CON IA:</strong> Uso de Xolo para planificar la implementación de mejoras basadas en el feedback.</li>
+                                        <li><strong class="tactic-highlight">⚡GNIUS STORM:</strong> Showcase de "insights" del feedback y reflexión sobre el proceso de diseño iterativo.</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Una lista de feedback estructurado (usando el método "I Like, I Wish, What If") para el Gemelo Digital de otro equipo.</li>
+                                        <li>Un plan de acción o un fragmento de código modificado que implemente una de las mejoras sugeridas en su propio proyecto.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Proyectos finales (Gemelos Digitales) funcionales de cada equipo.</li>
+                                        <li>Chat "Agente Gnius" (Xolo) operativo.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-8).</li>
+                                        <li>Papel y bolígrafo para tomar notas de feedback.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Verificación del Entorno Digital y Físico (Interna):</strong>
+                                            <ul>
+                                                <li>Asegurar que todos los proyectos de los estudiantes estén accesibles y funcionales.</li>
+                                                <li>Planificar el emparejamiento de equipos para las pruebas cruzadas.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización Conceptual y Técnica:</strong> Repasar el método de feedback "I Like, I Wish, What If". Estar preparado para moderar las sesiones de intercambio de feedback para que sean constructivas.</li>
+                                        <li><strong>Preparación de la Demostración Práctica:</strong> Tener un ejemplo de feedback estructurado para un proyecto de muestra, para ilustrar cómo usar el método correctamente.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de IA y Contexto ⏰ 3 minutos</h2>
+                <p>Establecer el tono de la sesión, activar la IA y presentar el concepto de pruebas de experiencia de usuario.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto Estratégico</h3>
+                            <p>(Proyectar Diapositiva 2) El facilitador da la bienvenida y presenta el enfoque de la misión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Buenos días, diseñadores. Tienen un producto funcional. Pero, ¿es un buen producto? La única forma de saberlo es poniéndolo en manos de un usuario. Hoy, en nuestra última sesión práctica, se convertirán en testers de Experiencia de Usuario (UX). Evaluarán el trabajo de sus compañeros y recibirán feedback sobre el suyo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación y Personalización de Xolo</h3>
+                            <p>El facilitador guía a los alumnos para que inicien su sesión de trabajo individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Inicien su sesión con Xolo como de costumbre, compartiendo su perfil de aprendizaje e interés. Por ejemplo: <strong>'Hola Xolo. Soy Ana, perfil Comunicador, y hoy mi objetivo es aprender a dar y recibir feedback de manera efectiva.'</strong> Esto posicionará a Xolo como su analista de UX. Procedan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Presentación del Desafío ⏰ 2 minutes</h2>
+                <p>Clarificar la meta de aprendizaje enfocada en la evaluación de la experiencia de usuario.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: "I Can Statement" de UX</h3>
+                            <p>(Proyectar Diapositiva 3) El facilitador presenta el objetivo de aprendizaje de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">La meta de hoy es aprender a mejorar a través de la crítica constructiva. Al finalizar, podrán afirmar: <strong>'Yo puedo realizar una prueba de usabilidad de una interfaz y proporcionar feedback estructurado y útil para guiar su mejora.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM (Pruebas de Usabilidad) ⏰ 5 minutos</h2>
+                <p>Facilitar una sesión de aprendizaje sobre un método estructurado para dar feedback de UX.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Instrucción para el Aprendizaje Conceptual</h3>
+                            <p>(Proyectar Diapositiva 4) El facilitador dirige a los alumnos para que aprendan un protocolo de feedback.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Iniciamos el A.I. GYM. Antes de probar, necesitan un marco de trabajo. De forma individual, usen este prompt con Xolo: <strong>'Xolo, explícame un protocolo simple para realizar una prueba de usabilidad y dar buen feedback.'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Síntesis del Facilitador</h3>
+                            <p>El facilitador resume verbalmente el método "I Like, I Wish, What If".</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Recuerden el protocolo que Xolo les ha dado: "I Like, I Wish, What If". "Me gusta..." para lo positivo. "Desearía que..." para las mejoras. "¿Y si...?" para sugerir nuevas ideas. Usarán este marco para todo el feedback que den hoy. La clave es ser constructivo, no solo crítico.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark (Pruebas Cruzadas) ⏰ 27 minutos</h2>
+                <p>Los estudiantes realizan pruebas de usabilidad de los proyectos de sus compañeros y planifican mejoras.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Pruebas de Usabilidad Cruzadas</h3>
+                             <p>(Proyectar Diapositiva 5) El facilitador organiza las pruebas entre equipos.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, a las pruebas. El Equipo A probará el proyecto del Equipo B, y viceversa. Tienen 10 minutos para actuar como 'usuarios'. Usen el Gemelo Digital del otro equipo en silencio. Intenten entenderlo por su cuenta. Anoten sus impresiones para el feedback.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Intercambio de Feedback Estructurado</h3>
+                            <p>(Proyectar Diapositiva 6) Las parejas se presentan mutuamente el feedback recopilado.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Ahora, intercambien el feedback. Tienen 5 minutos para que el Equipo A le presente su feedback al Equipo B usando el método "I Like, I Wish, What If", y luego cambien de roles. El equipo que recibe el feedback solo debe escuchar, agradecer y tomar notas. No defiendan su diseño, solo entiendan la perspectiva del usuario.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Consulta con IA para Plan de Mejora</h3>
+                             <p>(Proyectar Diapositiva 7) Las parejas consultan a Xolo para implementar una de las mejoras sugeridas.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">Con el valioso feedback que han recibido, consulten a Xolo. Descríbanle uno de los puntos de 'I Wish' o 'What If' que les dieron y pídanle que les genere el código o la estrategia para implementar esa mejora. Por ejemplo: <strong>'Xolo, el feedback dice "Desearía que el botón de la bomba se viera diferente cuando está encendida". ¿Cómo podemos hacer eso?'</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM (Reflexión) ⏰ 5 minutos</h2>
+                <p>El facilitador modera una reflexión final enfocada en el valor del feedback y el diseño iterativo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Gnius STORM (Think - Individual)</h3>
+                            <p>(Proyectar Diapositiva 8) Instrucción para la reflexión individual.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Bien, para cerrar, nuestro Think-Pair-Share. Individualmente, un minuto para pensar: ¿Cuál fue la pieza de feedback más útil que recibieron hoy y por qué fue valiosa?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Gnius STORM (Pair - Parejas)</h3>
+                            <p>Los alumnos discuten la importancia de las pruebas con usuarios.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">Ahora, en parejas, discutan durante dos minutos: ¿Por qué es tan difícil para un creador ver los fallos en su propio trabajo? ¿Por qué es esencial probar con usuarios externos?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Gnius STORM (Share & Synthesis)</h3>
+                            <p>Algunas parejas comparten sus aprendizajes y el facilitador cierra la sesión.</p>
+                        </div>
+                        <div class="collapsible-content">
+                                <p class="dialogue assistant">Escuchemos a algunas parejas. Compartan una mejora que implementarán en su proyecto basándose en el feedback recibido hoy. (Escuchar respuestas). Hoy han aprendido una de las lecciones más importantes del desarrollo de productos: no diseñas para ti, diseñas para tus usuarios. Han practicado la empatía, la comunicación constructiva y la iteración. Un producto que no se prueba con usuarios es solo una hipótesis. Ustedes han validado y mejorado su creación.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
